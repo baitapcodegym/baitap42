@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai 3</title>
+</head>
+<body onload="input()">
+<script>
+    let input = function () {
+        let x = prompt('Nhap so A');
+        let y = prompt('Nhap so B');
+        let ketqua = number(x, y);
+        document.write(ketqua)
+    };
+    let number = function (a, b) {
+        if (a > b) {
+            return alert('ok')
+        } else {
+            return alert(parseInt(a) + parseInt(b))
+        }
+    }
+</script>
+</body>
+</html>
